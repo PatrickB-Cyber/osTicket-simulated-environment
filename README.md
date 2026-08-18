@@ -18,3 +18,16 @@ In this lab I used a Raspberry Pi to host osTicket to simulate common IT support
 - ✅ Simulated end-user support requests
 - ✅ Ticket troubleshooting and resolution
 - ✅ Active Directory help desk scenarios
+
+## Architecture
+osTicket uses a multi-tier web application architecture. Apache provides a web server that will handle HTTP requests, PHP is used for the application code, and the MariaDB database provides a storage space for users, tickets, departments, and configurations. I don't go over setting up the Apache server, installing PHP, or setting up the databse but the screenshots below show that they are running on the Pi
+
+CLI Command: sudo systemctl apache2
+
+CLI Command: sudo systemctl mariadb
+
+CLI Command: php --version
+
+## 🎫 osTicket Deployment & Help Desk Environment
+If you check out my AD-
+
