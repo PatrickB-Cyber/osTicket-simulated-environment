@@ -24,7 +24,7 @@ osTicket uses a multi-tier web application architecture. Apache provides a web s
 
 CLI Command: sudo systemctl apache2
 
-![Apache Status](apache-status.png)
+![Apache Status](screenshots/apache-status.png) 
 
 CLI Command: sudo systemctl mariadb
 
