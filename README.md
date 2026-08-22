@@ -28,36 +28,36 @@ CLI Command: sudo systemctl apache2
 
 CLI Command: sudo systemctl mariadb
 
-![MariaDB Status](mariadb-status.png)
+![MariaDB Status](screenshots/mariadb-status.png)
 
-![MariaDB Databases](mariadb-databases.png)
+![MariaDB Databases](screenshots/mariadb-databases.png)
 
 CLI Command: php --version
 
-![PHP Version](php-version.png)
+![PHP Version](screenshots/php-version.png)
 
 ## 🎫 osTicket Deployment & Help Desk Environment
 If you check out my Active Directory lab you'll see that I set up an environment to simulate a real enterprise operation. This lab is an extension of that one and we'll be logging into a simulated IT Agents profile to work tickets. The portal allows user to authenticate, submit new tickets, and work through them if you are in the help desk admin department.
 
 User Login
 
-![osTicket Login](osticket-login.png)
+![osTicket Login](screenshots/osticket-login.png)
 
 Agent Login
 
-![Agent Login](agent-login.png)
+![Agent Login](screenshots/agent-login.png)
 
 ## 🏢 Help Desk Configuration
 I configured an IT Help Desk department inside of osTicket to provide a destination for support requests. I assigned 2 agents (1 Help Desk Admin & 1 System Admin) that are able to receive, manage, and resolve tickets by submitted users. I configured it so that the help desk can work tickets but they can't create new users or delete tickets. Only the system admin has full control. 
 
-![Department Dashboard](department-dashboard.png)
+![Department Dashboard](screenshots/department-dashboard.png)
 
-![Open Tickets](open-tickets.png)
+![Open Tickets](screenshots/open-tickets.png)
 
 I also added a user that can login on their own to submit new tickets. I would have created more to simulate an enterprise environment better but I have to use actual emails to make employees and I didnt want to make 20 fake emails. This means that the one user will submit tickets on behalf of the whole company. This is demonstrated below with a few tickets that are open and a few that have been resolved. 
 
-![Users Dashboard](users-dashboard.png)
+![Users Dashboard](screenshots/users-dashboard.png)
 
-![User Ticket Creation](user-ticket-creation.png)
+![User Ticket Creation](screenshots/user-ticket-creation.png)
 
 
